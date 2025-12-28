@@ -28,8 +28,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        <div className="relative w-full flex items-center justify-center "></div>
-        {children}
+        <div className="relative w-full flex items-center justify-center ">
+          {children}
+        </div>
       </body>
     </html>
   );
